@@ -14,7 +14,7 @@
 body { 
 	font: 8pt/16pt georgia; 
 	color: #555753; 
-	background: #F5F7EC url(bg.jpg); 
+	background: #F5F7EC url(../Img/bg.jpg); 
 	margin: 0px; 
 	text-align: center;
 	background-repeat: repeat-x;
@@ -51,7 +51,7 @@ a:hover, a:active {
 
 /* specific divs */
 #container { 
-	background: url(footbg.jpg) no-repeat bottom left; 
+	background: url(../Img/footbg.jpg) no-repeat bottom left; 
 
 	width:650px;
 	padding-bottom:80px;
@@ -71,7 +71,7 @@ a:hover, a:active {
 
 /* using an image to replace text in an h1. This trick courtesy Douglas Bowman, http://www.stopdesign.com/articles/css/replace-text/ */
 #pageHeader h1 { 
-	background: url(head.gif) no-repeat top left; 
+	background: url(../Img/head.gif) no-repeat top left; 
 	width: 678px; 
 	height: 213px; 
 
@@ -83,7 +83,7 @@ a:hover, a:active {
 	display:none
 	}
 #pageHeader h2 { 
-	background: transparent url(flwr.gif) no-repeat top left; 
+	background: transparent url(../Img/flwr.gif) no-repeat top left; 
 
 	width: 84px; 
 	height: 261px; 
@@ -99,7 +99,7 @@ a:hover, a:active {
 	}
 
 #quickSummary {
-	background: transparent url(green.gif) no-repeat top left; 
+	background: transparent url(../Img/green.gif) no-repeat top left; 
 	clear:both; 
 	overflow:auto;
 
@@ -143,7 +143,7 @@ a:hover, a:active {
 	padding-top:20px;
 	padding-left:30px;
 	overflow:auto;
-	background: transparent url(whitebg.gif) no-repeat 0 0 !important; 
+	background: transparent url(../Img/whitebg.gif) no-repeat 0 0 !important; 
 
 	position:absolute;
 	top:72px;
@@ -154,7 +154,7 @@ a:hover, a:active {
 	}
 
 #preamble h3 {
-	background: transparent url(pretext.gif) no-repeat top left;
+	background: transparent url(../Img/pretext.gif) no-repeat top left;
 	font: 0pt/14pt verdana;
 	color:#FFFFFF;
 	text-align:right;
@@ -170,7 +170,7 @@ display:none
 
 
 #supportingText {
-	background: transparent url(whitebg2.gif) repeat-y top left; 
+	background: transparent url(../Img/whitebg2.gif) repeat-y top left; 
 
 	float:left;
 	padding-left: 10px; 
@@ -184,7 +184,7 @@ display:none
 
 
 #explanation {
-	background: transparent url(whatistext.gif) no-repeat top left; 
+	background: transparent url(../Img/whatistext.gif) no-repeat top left; 
 
 	float:right;
 	width:410px;
@@ -194,7 +194,7 @@ display:none
 }
 
 #participation {
-	background: transparent url(parttext.gif) no-repeat top left; 
+	background: transparent url(../Img/parttext.gif) no-repeat top left; 
 
 
 	float:right;
@@ -205,7 +205,7 @@ display:none
 }
 
 #benefits {
-	background: transparent url(beneftxt.gif) no-repeat top left; 
+	background: transparent url(../Img/beneftxt.gif) no-repeat top left; 
 
 
 	float:right;	
@@ -215,7 +215,7 @@ display:none
 
 }
 #requirements {
-	background: transparent url(reqtext.gif) no-repeat top left; 
+	background: transparent url(../Img/reqtext.gif) no-repeat top left; 
 
 
 	float:right;
@@ -229,7 +229,7 @@ display:none
 
 #footer { 
 
-	background: transparent url(notext.gif) no-repeat top left; 	
+	background: transparent url(../Img/notext.gif) no-repeat top left; 	
 
 	left:0px;
 	text-align: center; 
@@ -251,7 +251,7 @@ display:none
 
 
 #linkList {
-	background: transparent url(greenbg.gif) repeat-y top left; 
+	background: transparent url(../Img/greenbg.gif) repeat-y top left; 
 
 	float:left;
 	position: absolute;
@@ -263,7 +263,7 @@ display:none
 	padding: 0px;
 	}
 #linkList2 { 
-	background: transparent url(fade.gif) no-repeat bottom left; 
+	background: transparent url(../Img/fade.gif) no-repeat bottom left; 
 
 	font: 10px verdana, sans-serif; 
 	margin:0px;
@@ -330,7 +330,7 @@ display:none
 
 
 #lselect {
-	background: transparent url(seltxt.gif) no-repeat top left; 
+	background: transparent url(../Img/seltxt.gif) no-repeat top left; 
 	padding-top:30px;
 	padding-bottom:0px;
 	margin-bottom:-10px;
@@ -339,7 +339,7 @@ display:none
 
 
 #larchives {
-	background: transparent url(archtxt.gif) no-repeat top left; 
+	background: transparent url(../Img/archtxt.gif) no-repeat top left; 
 	padding-top:30px;
 	padding-bottom:0px;
 	margin-bottom:-10px;
@@ -347,7 +347,7 @@ display:none
 }
 
 #lresources {
-	background: transparent url(restxt.gif) no-repeat top left; 
+	background: transparent url(../Img/restxt.gif) no-repeat top left; 
 	padding-top:30px;
 	padding-bottom:0px;
 	margin-bottom:-10px;
