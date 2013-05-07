@@ -173,8 +173,10 @@
                     <h3 class="select">
                         <span>Select a Design:</span></h3>
                     <ul>
+                    	{% for post in site.posts %}
                         <li><a href="{{ site.baseurl }}{{ post.url }}" title="AccessKey: a" accesskey="a">{{
                             page.title }}</a> at {{ post.date | date_to_string }}</li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <div id="larchives">
