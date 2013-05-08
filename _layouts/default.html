@@ -1,25 +1,12 @@
-﻿<!DOCTYPE html>
-����<html>
-����<head>
-    ��������<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    ��������<title>{{ page.title }}</title> 
-    <style type="text/css">
-    .left{width:200px;float:left;display:inline;}
-    .right{width:800px;float:right;}
-    </style>
-</head>
-����<body>
-    <div id="preamble" class="left">
-        <h3>
-            <span>最近更新</span></h3>
-        <ul>
-            <li>{{ post.date | date_to_string }} <a>{{ post.title }}</a></li>
-            <li>{{ post.date | date_to_string }} <a>{{ post.title }}</a></li>
-            <li>{{ post.date | date_to_string }} <a>{{ post.title }}</a></li>
-        </ul>
-    </div>
-    <div class="right">���
-    </div>
-        ��������{{ content }} 
-    �</body>
-����</html>
+﻿{% include top.html %}
+
+<body class="wrap">
+  {% include header.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+  {% include analytics.html %}
+
+</body>
+</html>
