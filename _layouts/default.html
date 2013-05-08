@@ -1,12 +1,25 @@
 ﻿<!DOCTYPE html>
 ����<html>
 ����<head>
-��������<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-��������<title>{{ page.title }}</title>
-����</head>
+    ��������<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    ��������<title>{{ page.title }}</title> 
+    <style type="text/css">
+    .left{width:200px;float:left;display:inline;}
+    .right{width:800px;float:right;}
+    </style>
+</head>
 ����<body>
-<div>ni hoa </div>
-��������{{ content }}
-
-����</body>
+    <div id="preamble" class="left">
+        <h3>
+            <span>最近更新</span></h3>
+        <ul>
+            <li>{{ post.date | date_to_string }} <a>{{ post.title }}</a></li>
+            <li>{{ post.date | date_to_string }} <a>{{ post.title }}</a></li>
+            <li>{{ post.date | date_to_string }} <a>{{ post.title }}</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        ��������{{ content }} ���
+    </div>
+    �</body>
 ����</html>
