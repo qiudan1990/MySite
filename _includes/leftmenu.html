@@ -1,0 +1,12 @@
+<div>左侧菜单开始</div>
+<div>
+    <div>
+        <ul>
+            {% for post in site.posts %}
+            <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title
+                }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<div>左侧菜单结束</div>
