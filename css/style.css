@@ -1,0 +1,36 @@
+/* basic elements */
+body { 
+	font-family£º"Helvetica Neue",Helvetica,Arial,sans-serif£»
+	font: 8pt/16pt georgia; 
+	color: #333333; 
+	background: url('/img/body_bg.png') repeat 0 0; 
+	line-height:18px;
+	}
+p { 
+	font: 8pt/14pt verdana; 
+	margin-top: 0px; 
+	text-align: left;
+	}
+h3 { 
+	font: italic normal 12pt georgia; 
+	letter-spacing: 1px; 
+	margin-bottom: 10px; 
+	color: #7D775C;
+	text-align: left;
+	}
+a:link { 
+	font: 11px verdana; 
+	font-weight: bold; 
+	text-decoration: underline; 
+	color: #8F9E28;
+	}
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: underline; 
+	color: #C0C0C0;
+	}
+a:hover, a:active { 
+	text-decoration: underline; 
+	color: #B8C271;
+	}
